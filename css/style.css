@@ -1,0 +1,142 @@
+.bg-warna {
+    background-color: #427D9D;
+}
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    min-height: 65vh;
+}
+h3.sambutan {
+    font-size: 25px;
+    color: white;
+}
+.judul {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.bg-img-logdaf {
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: 100%;
+    height: 100vh;
+}
+.dropdown-menu a:hover{
+    color: black;
+    background-color: white;
+}
+.dropdown-menu a:active {
+    background-color: white;
+    color: black;
+}
+.galleryfoto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+#content{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+#content p {
+    text-align: justify;
+}
+.galleryfoto img {
+    border-radius: 10px;
+    width: 230px;
+    height: 170px;
+    margin-top: 15px;
+}
+.tampilan {
+    background-color: #F6F4EB;
+    height: 35vh;
+    margin: auto;
+}
+.isi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.isi a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.header1 img {
+    margin-right: 15px;
+}
+.header2 {
+    display: flex;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.logo-autentifikasi {
+    color: black;
+}
+.link-logdaf a {
+    text-decoration: none;
+}
+.link-logdaf a:hover {
+    text-decoration: underline;
+}
+.button-autentifikasi {
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.button-autentifikasi a{
+    color:#427d9d;
+    text-align: center;
+}
+.button-autentifikasi a:hover{
+    text-decoration: underline;
+    color: #427D9D;
+}
+@media (max-width: 480px) {
+    .bg-img{
+        background-position: center;
+        min-height: 50vh;
+    }
+    .bg-img-logdaf {
+        background-position: center;
+    }
+    h3.sambutan {
+        font-size: 20px;
+        text-align: center;
+    }
+    .galleryfoto img{
+        width: 150px;
+        height: 100px;
+    }
+    .tampilan {
+        height: 53vh;
+    }
+    .isi p {
+        font-size: 16px;
+    }
+    .card-login {
+        width: 45vh;
+    }
+    .card-register {
+        width: 45vh;
+    }
+ }
